@@ -1,0 +1,16 @@
+{
+    "api_key": "",
+    "base_url": "https://api.moonshot.cn/v1",
+    "model": "moonshot-v1-8k",
+    "vision_model": "moonshot-v1-8k-vision-preview",
+    "temperature": 0.3,
+    "max_tokens": 500,
+    "system_prompt": "你是一个Excel数据处理助手。根据用户的指令，对单元格内容进行转换处理。只输出处理结果，不要输出任何解释或额外内容。",
+    "local_vision": {
+        "enabled": true,
+        "model_path": "models/excel_ui_yolo.pt",
+        "conf_threshold": 0.25,
+        "max_det": 20,
+        "predict_imgsz": 640
+    }
+}

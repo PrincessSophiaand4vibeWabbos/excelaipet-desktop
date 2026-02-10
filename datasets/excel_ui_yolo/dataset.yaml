@@ -1,0 +1,27 @@
+path: C:/Users/22563/Desktop/pet/pet/pyCatAI-pet-main/pyCatAI-pet-main/datasets/excel_ui_yolo
+train: images/train
+val: images/val
+
+nc: 21
+names:
+  0: file_tab
+  1: home_tab
+  2: insert_tab
+  3: layout_tab
+  4: formula_tab
+  5: data_tab
+  6: review_tab
+  7: view_tab
+  8: bold
+  9: italic
+  10: underline
+  11: merge_center
+  12: auto_sum
+  13: filter
+  14: sort
+  15: freeze_panes
+  16: insert_function
+  17: name_box
+  18: formula_bar
+  19: cell_area
+  20: sheet_tab
