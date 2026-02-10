@@ -43,8 +43,18 @@ pip install -r requirements.txt
 ## Usage
 
 > [!IMPORTANT]  
-> Make sure that you have generated your own [Gemini API key](https://aistudio.google.com/app/apikey) and placed it in the script:
-https://github.com/R37r0-Gh057/pyCatAI-pet/blob/fa142662c4cc735ebe82a3d457dc0b3b78f78752/lib/CommentGenerator.py#L10
+> 使用前需要配置 API Key（二选一）：
+>
+> **方式一：配置文件（推荐）**
+> ```bash
+> cp config/settings.example.json config/settings.json
+> ```
+> 然后编辑 `config/settings.json`，在 `"api_key"` 字段填入你的 [Moonshot API Key](https://platform.moonshot.cn/)。
+>
+> **方式二：环境变量**
+> ```bash
+> export SK=your_api_key_here
+> ```
 
 Run the `main.py` file from terminal:
 ```
